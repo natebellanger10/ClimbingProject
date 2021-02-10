@@ -102,7 +102,7 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 - As per the Data Lake, choose your subscription and Resource Group, name your database and choose the server. Choose the compute and storage.
 
-- Choose "Networking" and select "Allow Azure services and resources access to this server"
+- Choose "Networking" and select "Allow Azure services and resources access this server"
 
 <kbd> ![Firewall Azure Access](https://user-images.githubusercontent.com/61860904/107553178-ad7ccf80-6b91-11eb-92f2-770a8e582078.PNG) </kbd>
 
