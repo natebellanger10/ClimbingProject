@@ -58,6 +58,34 @@ Go to the "Advanced" tab and select Data Lake Storage Gen2.
 
 ![Advanced - Data Lake](https://user-images.githubusercontent.com/61860904/107546594-c5e8ec00-6b89-11eb-87c3-a78f8dd7271f.PNG)
 
+To create a new container for the CSV files, search "Containers" or scroll down to "Data LakeStorage"
+
+![Find Containers](https://user-images.githubusercontent.com/61860904/107547156-60e1c600-6b8a-11eb-8ccc-7b598ce9b3d1.PNG)
+
+Click "+ Container"
+
+![Create Container](https://user-images.githubusercontent.com/61860904/107547494-bddd7c00-6b8a-11eb-9db6-f2a99b1785a7.PNG)
+
+On the right hand side of the page a window will open to name your new container.
+
+![Naming Container](https://user-images.githubusercontent.com/61860904/107547618-e1a0c200-6b8a-11eb-94b9-5812771c2819.PNG)
+
+Give it a name, I named mine CSVFiles.
+
+You now have a Data Lake to upload data into. From here you can upload data or create directories within the Lake.
+
+Press to the upload button to start adding data to your Data Lake.
+
+![Upload to DL](https://user-images.githubusercontent.com/61860904/107547938-49efa380-6b8b-11eb-9969-4379097518c0.PNG)
+
+A window will open on the right side of the page 
+
+![Upload Data](https://user-images.githubusercontent.com/61860904/107548197-976c1080-6b8b-11eb-8f3b-82ce38edd5a0.PNG)
+
+Choose the file you wish to upload and repeat this process until you have all the data in the Data Lake.
+
+Congrats! Your have created the Data Lake and have all your data in the cloud.
+
 
 
 
