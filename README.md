@@ -10,7 +10,8 @@ Process Outline:
 
 
 Let start at the Azure portal home page:  https://portal.azure.com/
-
+\n
+\n
 #1. Create Resource Group
 
 - We need to create a resource group to have all the Azure products in one place.
