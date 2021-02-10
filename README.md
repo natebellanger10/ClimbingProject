@@ -1,8 +1,11 @@
 # ClimbingProject
 
-Process Outline:
+## Process Outline:
+- Create Resource Group 
 
 - Load data from static CSV files into Azure Data Lake Gen2
+
+- Create Azure SQL Database
 
 - Use Azure Data Factory to move CSV data into a Azure SQL Database
 
@@ -11,9 +14,10 @@ Process Outline:
 
 Let start at the Azure portal home page:  https://portal.azure.com/
 
+<br/>
+<br/>
 
-
-#1. Create Resource Group
+## 1. Create Resource Group
 
 - We need to create a resource group to have all the Azure products in one place.
 
@@ -29,10 +33,10 @@ Let start at the Azure portal home page:  https://portal.azure.com/
 
 - Review+Create your Resource Group
 
+<br/>
+<br/>
 
-
-
-#2. Load Data into Azure Data Lake Gen2 
+## 2. Load Data into Azure Data Lake Gen2 
 
 - We need to create the Data Lake for our CSV's to live in. There are two places to ceate a new resource from the home page as shown below:
 
@@ -87,6 +91,11 @@ Let start at the Azure portal home page:  https://portal.azure.com/
 
 Congrats! Your have created the Data Lake and have all your data in the cloud.
 
+<br/>
+<br/>
+
+
+## 3. Create Azure SQL Database:
 
 
 
