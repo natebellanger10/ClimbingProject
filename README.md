@@ -94,10 +94,17 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 ## 3. Create Azure SQL Database:
 
+- Go back to the Resource Group and press "Add" as you did for the container.
 
+- This time we want to add a SQL Database
 
+<kbd> ![Add SQL DB](https://user-images.githubusercontent.com/61860904/107552680-1152c880-6b91-11eb-96cf-c3d7ca283b33.PNG) </kbd>
 
+- As per the Data Lake, choose your subscription and Resource Group, name your database and choose the server. Choose the compute and storage.
 
+- Choose "Networking" and select "Allow Azure services and resources access to this server"
 
+<kbd> ![Firewall Azure Access](https://user-images.githubusercontent.com/61860904/107553178-ad7ccf80-6b91-11eb-92f2-770a8e582078.PNG) </kbd>
 
+- Review + Create your SQL database
 
