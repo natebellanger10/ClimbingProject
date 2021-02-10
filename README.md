@@ -4,7 +4,7 @@
 1. Create Resource Group 
 2. Load data from static CSV files into Azure Data Lake Gen2
 3. Create Azure SQL Database
-4. Use Azure Data Factory to move CSV data into a Azure SQL Database
+4. Use Azure Data Factory to move data
 5. Use Power BI to analyse data in Azure SQL Database
 
 
@@ -107,4 +107,75 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 <kbd> ![Firewall Azure Access](https://user-images.githubusercontent.com/61860904/107553178-ad7ccf80-6b91-11eb-92f2-770a8e582078.PNG) </kbd>
 
 - Review + Create your SQL database
+
+- Create the tables you will need for the CSV files to import into the SQL Database, select Query Editor in the left hand menu
+
+<kdb> ![Query Editor](https://user-images.githubusercontent.com/61860904/107558163-b2dd1880-6b97-11eb-8a56-b75df32298ff.PNG) </kbd>
+
+- Login to your database and you can run queries to create the tables required usign the CREATE TABLE command.
+
+- Ensure the columns have the correct data type or you will have errors moving the data to the SQL Database
+
+
+<br/>
+<br/>
+
+## 4. Use Azure Data Factory to move data
+
+- The source and sink destinations complete.
+
+- Now we need to implement a Azure Data Factory to move the data for us.
+
+- As before, go to "add" and search for "factory"
+
+<kbd> ![Create Data Factory](https://user-images.githubusercontent.com/61860904/107554498-42cc9380-6b93-11eb-8926-c3931dd23b8e.PNG) </kbd> 
+
+- Again enter your subscription and Resource Group, choose your region, give it a name and make sure you are using V2.
+
+- You can configure your Data Factory to git in the "Git configuration" tab.
+
+- Once the Data Factory has been created, open it and select "Author & Monitor".
+
+<kbd> ![DF Author   Monitor](https://user-images.githubusercontent.com/61860904/107554963-d900b980-6b93-11eb-9589-86707d1e349a.PNG) </kbd> 
+
+- First we need to make our linked services to both the Data Lake and the SQL Database.
+
+- Go to the Toolkit with a wrench icon on the left hand menu (Manage)
+
+<kbd> ![Pencil Icon](https://user-images.githubusercontent.com/61860904/107557587-0b5fe600-6b97-11eb-88f5-d96c5b78ead9.PNG) </kbd>
+
+- Select "New".
+
+<kbd> ![New Linked Service](https://user-images.githubusercontent.com/61860904/107561803-3a2c8b00-6b9c-11eb-9e58-a9258a55ecea.PNG) </kbd>
+
+- Choose Azure Data Lake Gen2 from the list.
+
+- Name it appropriately (e.x. Input DL).
+
+- Choose your Azure subscription and the Data Lake where the CSV files are.
+
+- Test Connection and then create it.
+
+- Repeat this process selecting Azure SQL Database and inputting the login for your SQL Database.
+
+- Now that the linked services are completed, you will need datasets to tell what the data contains.
+
+- Select the pencil icon (Author) in the left hand side menu
+
+<kbd> ![Pencil Icon](https://user-images.githubusercontent.com/61860904/107557587-0b5fe600-6b97-11eb-88f5-d96c5b78ead9.PNG) </kbd>
+
+- Select the three dots beside Datasets and choose "New Dataset"
+
+<kbd> ![New Dataset](https://user-images.githubusercontent.com/61860904/107562800-83c9a580-6b9d-11eb-822e-99e67e153dc7.PNG) </kbd>
+
+
+
+
+
+
+
+
+
+
+
 
