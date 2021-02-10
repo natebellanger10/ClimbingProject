@@ -12,8 +12,9 @@
 - Use Power BI to analyse data in Azure SQL Database
 
 
-Let start at the Azure portal home page:  https://portal.azure.com/
-
+<br/>
+<br/>
+Lets start at the Azure portal home page:  https://portal.azure.com/
 <br/>
 <br/>
 
