@@ -18,4 +18,4 @@ Let start at the Azure portal home page:  https://portal.azure.com/
 We need to start by creating the Data Lake for our CSV's to live in. There are two places to ceate a new resource as shown below:
 
 
-![Alt text](G:\Documents\ClimbingProject\Screenshots\Create Resource.PNG)
+![Alt text](G:\Documents\ClimbingProject\Screenshots\Create Resource.PNG?raw=True)
