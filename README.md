@@ -108,7 +108,7 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 - Review + Create your SQL database
 
-- Create the tables you will need for the CSV files to import into the SQL Database, select Query Editor in the left hand menu
+- Create the tables you will need for the CSV files to import into the SQL Database, select Query Editor in the left hand menu, this can also be done automaticallly later when we create the pipline.
 
 <kdb> ![Query Editor](https://user-images.githubusercontent.com/61860904/107558163-b2dd1880-6b97-11eb-8a56-b75df32298ff.PNG) </kbd>
 
@@ -168,9 +168,65 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 <kbd> ![New Dataset](https://user-images.githubusercontent.com/61860904/107562800-83c9a580-6b9d-11eb-822e-99e67e153dc7.PNG) </kbd>
 
+- A window will open on the right hand side of the page, we need to tell the pipline where the data is coming from. Scroll down to "Azure Data Lake Storage Gen2".
 
+<kbd> ![ADL Storage Dataset](https://user-images.githubusercontent.com/61860904/107653637-166e5100-6c3f-11eb-8fad-46d3fc2c07f9.PNG) </kbd>
 
+- Now select the data type in the Date Lake, we have CSV's.
 
+<kbd> ![CSV in ADL](https://user-images.githubusercontent.com/61860904/107653822-474e8600-6c3f-11eb-9618-24a9f13bdfb7.PNG) </kbd>
+
+- Press continue and give the dataset a name and choose the linked service to our Data Lake we just created above.
+
+- Choose the "First row as header" if it aplicable to your dataset.
+
+- We need to repeat this to build the dataset for the SQL Database.
+
+- Select "New Dataset", this time scroll down to "Azure SQL Database.
+
+<kbd> ![SQL DB Dataset](https://user-images.githubusercontent.com/61860904/107654428-e4a9ba00-6c3f-11eb-8786-4363308fb7ba.PNG) </kbd>
+
+- Choose a name and the linked service for the SQL Database.
+
+- Now we can create our pipline.
+
+- Select the three dots beside Pipelines and "New Pipeline".
+
+- On the right hand side of the page a window will open to name your pipeline.
+
+<kbd> ![New Pipeline](https://user-images.githubusercontent.com/61860904/107655220-9a750880-6c40-11eb-8ca9-5aa62782f905.PNG) </kbd>
+
+- We are copying data from the CSV files to the SQL Database so open "Move & transform".
+
+- Drag "Copy data" into the main pipeline space.
+
+<kbd> ![Copy  Data](https://user-images.githubusercontent.com/61860904/107655958-f63f9180-6c40-11eb-9c3b-5922bc3a198d.PNG) </kbd>
+
+- A menu will open below the pipeline, from here you can name the activity and set the source / sink datasets.
+
+- Select Source.
+
+<kbd> ![Source Dataset](https://user-images.githubusercontent.com/61860904/107656845-ca70db80-6c41-11eb-839b-75367aaec5e5.PNG) </kbd>
+
+- Choose the dataset that is the source, the CSV dataset in our case.
+
+- Select Sink
+
+<kbd> ![Sink Dataset](https://user-images.githubusercontent.com/61860904/107656965-e96f6d80-6c41-11eb-8d94-9b7684dd0a99.PNG) </kbd>
+
+- Choose the dataset that is the sink, the SQL Database dataset in our case.
+
+- From here, if you did not create the table in your SQL Database, choose the option "Auto create table"
+
+<kbd> ![Auto Create Table](https://user-images.githubusercontent.com/61860904/107657314-4e2ac800-6c42-11eb-96d5-c89b4e6997ef.PNG) </kbd>
+
+- In the "Mapping" tab, you can import the table schema and ensure that the data types line up, if they are not compatable, your pipeline will fail.
+
+<kbd> ![Import Schema](https://user-images.githubusercontent.com/61860904/107657616-8b8f5580-6c42-11eb-9bc0-cae22ba1393a.PNG) </kbd>
+
+- Once the data types all match we can try and debug the pipeline to see if it will run.
+
+<kbd> ![Debug Pipeline](https://user-images.githubusercontent.com/61860904/107657921-dd37e000-6c42-11eb-900c-82cfa3a81df9.PNG) </kbd>
 
 
 
