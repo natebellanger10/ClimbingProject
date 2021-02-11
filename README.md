@@ -228,10 +228,26 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 <kbd> ![Debug Pipeline](https://user-images.githubusercontent.com/61860904/107657921-dd37e000-6c42-11eb-900c-82cfa3a81df9.PNG) </kbd>
 
+- It will display successful in the bottom menu when the debugger has finished successfully.
+
+<kbd> ![Debug Success](https://user-images.githubusercontent.com/61860904/107661017-145bc080-6c46-11eb-8397-4bf1dc94143c.PNG) </kbd>
+
+<br/>
+<br/>
+
+You have now successfully setup your Azure Data Factory Pipeline!
+
+<br/>
+<br/>
 
 
+## 5. Use Power BI to analyse data in Azure SQL Database
 
+- Open Power BI desktop, select "Get data" from the ribbon at the top
 
+<kbd> ![PBI Get Data](https://user-images.githubusercontent.com/61860904/107661638-b1b6f480-6c46-11eb-8781-49db991c47ae.PNG) </kbd>
+
+- 
 
 
 
