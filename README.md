@@ -59,7 +59,7 @@ Lets start at the Azure portal home page:  https://portal.azure.com/
 
 <kbd> ![Advanced - Data Lake](https://user-images.githubusercontent.com/61860904/107546594-c5e8ec00-6b89-11eb-87c3-a78f8dd7271f.PNG) </kbd>
 
-- To create a new container for the CSV files, search "Containers" or scroll down to "Data Lake Storage"
+- To create a new container for the CSV files, search "Containers" or scroll down to "Data Lake Storage" and select "Containers".
 
 <kbd> ![Find Containers](https://user-images.githubusercontent.com/61860904/107547156-60e1c600-6b8a-11eb-8ccc-7b598ce9b3d1.PNG) </kbd>
 
