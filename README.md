@@ -114,7 +114,7 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 - Login to your database and you can run queries to create the tables required usign the CREATE TABLE command.
 
-- Ensure the columns have the correct data type or you will have errors moving the data to the SQL Database
+- Ensure the columns have the correct data type or you will have errors moving the data to the SQL Database, remember that CSV files are all strings by default. 
 
 
 <br/>
