@@ -247,7 +247,41 @@ You have now successfully setup your Azure Data Factory Pipeline!
 
 <kbd> ![PBI Get Data](https://user-images.githubusercontent.com/61860904/107661638-b1b6f480-6c46-11eb-8781-49db991c47ae.PNG) </kbd>
 
-- 
+- Select the More option.
+
+- Choose Azure and select Azure SQL Database.
+
+<kbd> ![PBI Get Data Azure SQL](https://user-images.githubusercontent.com/61860904/107663628-d14f1c80-6c48-11eb-94ee-a6a4807795c0.PNG) </kbd>
+
+- Enter your server name, which can be found in the resource in Azure, choose the SQL Database and under the "Essentials" tab.
+
+- You need to login to your SQL server using the same login used in teh SQL Database in Azure.
+
+- The "Navigator" window will open up and select the tables you wish to import to Power BI
+
+- From here you can either "Transform" the data if there is changes to be made or you can "Load" the data if it is already to be used in analysis.
+
+
+<br/>
+<br/>
+
+I have included examples of visuals you can make from a climbing data set that I used.
+
+<br/>
+<br/>
+
+<kbd> ![PBI Page 1](https://user-images.githubusercontent.com/61860904/107666579-e8dbd480-6c4b-11eb-9ace-52365805ddc7.PNG) </kbd>
+
+<br/>
+<br/>
+
+<kbd> ![PBI Page 2](https://user-images.githubusercontent.com/61860904/107666621-f2fdd300-6c4b-11eb-986f-08f74d7b91e7.PNG) </kbd>
+
+<br/>
+<br/>
+
+<kbd> ![PBI Page 3](https://user-images.githubusercontent.com/61860904/107666655-fb560e00-6c4b-11eb-8eca-5bb641511f7d.PNG) </kbd>
+
 
 
 
