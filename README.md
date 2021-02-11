@@ -16,7 +16,7 @@ Lets start at the Azure portal home page:  https://portal.azure.com/
 
 ## 1. Create Resource Group
 
-- We need to create a resource group to have all the Azure products in one place.
+- We need to create a resource group to have all the Azure products in one place for our project.
 
 - Select the Resource Groups icon: 
 
