@@ -241,6 +241,18 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 <kbd> ![Debug Success](https://user-images.githubusercontent.com/61860904/107661017-145bc080-6c46-11eb-8397-4bf1dc94143c.PNG) </kbd>
 
+- Now you can publish your pipeline so that it is saved for next time you want to run it.
+
+<kbd> ![DF Publish](https://user-images.githubusercontent.com/61860904/107884345-be8b5080-6eb1-11eb-98c7-263a1c63132c.PNG) </kbd>
+
+- Now to run the pipeline you need to select "Add Trigger" then "Trigger now"
+
+<kbd> ![DF Trigger](https://user-images.githubusercontent.com/61860904/107884364-e084d300-6eb1-11eb-9f41-c99890f1ed51.PNG) </kbd>
+
+- You can monitor your pipeline triggers and debugs in the "Monitor" tab
+
+<kbd> ![DF Monitor](https://user-images.githubusercontent.com/61860904/107884400-1c1f9d00-6eb2-11eb-9166-0028ae88dcad.PNG) </kbd>
+
 <br/>
 <br/>
 
