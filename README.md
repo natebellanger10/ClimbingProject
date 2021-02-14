@@ -291,17 +291,17 @@ I have included quick examples of visuals you can make from the climbing data se
 <br/>
 <br/>
 
-<kbd> ![PBI Page 1](https://user-images.githubusercontent.com/61860904/107666579-e8dbd480-6c4b-11eb-9ace-52365805ddc7.PNG) </kbd>
+<kbd> ![PBI Page 1](https://user-images.githubusercontent.com/61860904/107886070-cb607200-6eba-11eb-978e-ed25043ad647.PNG) </kbd>
 
 <br/>
 <br/>
 
-<kbd> ![PBI Page 2](https://user-images.githubusercontent.com/61860904/107666621-f2fdd300-6c4b-11eb-986f-08f74d7b91e7.PNG) </kbd>
+<kbd> ![PBI Page 2](https://user-images.githubusercontent.com/61860904/107886092-e8954080-6eba-11eb-8497-cceb7b354efc.PNG) </kbd>
 
 <br/>
 <br/>
 
-<kbd> ![PBI Page 3](https://user-images.githubusercontent.com/61860904/107666655-fb560e00-6c4b-11eb-8eca-5bb641511f7d.PNG) </kbd>
+<kbd> !![PBI Page 3](https://user-images.githubusercontent.com/61860904/107886103-f3e86c00-6eba-11eb-8c95-276e1f8dfaf1.PNG) </kbd>
 
 
 
