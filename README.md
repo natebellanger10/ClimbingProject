@@ -29,7 +29,7 @@ Lets start at the Azure portal home page:  https://portal.azure.com/
 
 - Select your subscripton and give the Resource Group a name, then choose the region closest to you.
 
-- Review+Create your Resource Group
+- Review+Create your Resource Group.
 
 <br/>
 <br/>
@@ -40,7 +40,7 @@ Lets start at the Azure portal home page:  https://portal.azure.com/
 
 <kbd> ![Create Resource](https://user-images.githubusercontent.com/61860904/107542861-deef9e00-6b85-11eb-9b77-93ae106fb22c.PNG) </kbd>
 
-- Or you can select "Add" within your Resource Group
+- Or you can select "Add" within your Resource Group.
 
 <kbd> ![Add Resource](https://user-images.githubusercontent.com/61860904/107545846-f8deb000-6b88-11eb-869b-a308583975d9.PNG) </kbd>
 
@@ -48,7 +48,7 @@ Lets start at the Azure portal home page:  https://portal.azure.com/
 
 <kbd> ![Storage Account](https://user-images.githubusercontent.com/61860904/107543424-75bc5a80-6b86-11eb-8f89-8222b86d9316.PNG) </kbd>
 
-- Press "Create"
+- Press "Create".
 
 <kbd> ![Create Storage Account](https://user-images.githubusercontent.com/61860904/107543644-a3090880-6b86-11eb-8a1d-35e8a8e58eee.PNG) </kbd>
 
@@ -74,7 +74,7 @@ Lets start at the Azure portal home page:  https://portal.azure.com/
 
 <kbd> ![Find Containers](https://user-images.githubusercontent.com/61860904/107547156-60e1c600-6b8a-11eb-8ccc-7b598ce9b3d1.PNG) </kbd>
 
-- Click "+ Container"
+- Click "+ Container".
 
 <kbd> ![Create Container](https://user-images.githubusercontent.com/61860904/107547494-bddd7c00-6b8a-11eb-9db6-f2a99b1785a7.PNG) </kbd>
 
@@ -90,7 +90,7 @@ Lets start at the Azure portal home page:  https://portal.azure.com/
 
 <kbd> ![Upload to DL](https://user-images.githubusercontent.com/61860904/107547938-49efa380-6b8b-11eb-9969-4379097518c0.PNG) </kbd>
 
-- A window will open on the right side of the page 
+- A window will open on the right side of the page.
 
 <kbd> ![Upload Data](https://user-images.githubusercontent.com/61860904/107548197-976c1080-6b8b-11eb-8f3b-82ce38edd5a0.PNG) </kbd>
 
@@ -107,17 +107,17 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 - Go back to the Resource Group and press "Add" as you did for the container.
 
-- This time we want to add a SQL Database
+- This time we want to add a SQL Database.
 
 <kbd> ![Add SQL DB](https://user-images.githubusercontent.com/61860904/107552680-1152c880-6b91-11eb-96cf-c3d7ca283b33.PNG) </kbd>
 
 - As per the Data Lake, choose your subscription and Resource Group, name your database and choose the server. Choose the compute and storage.
 
-- Choose "Networking" and select "Allow Azure services and resources access this server"
+- Choose "Networking" and select "Allow Azure services and resources access this server".
 
 <kbd> ![Firewall Azure Access](https://user-images.githubusercontent.com/61860904/107553178-ad7ccf80-6b91-11eb-92f2-770a8e582078.PNG) </kbd>
 
-- Review + Create your SQL database
+- Review + Create your SQL database.
 
 - Create the tables you will need for the CSV files to import into the SQL Database, select Query Editor in the left hand menu, this can also be done automaticallly later when we create the pipline.
 
@@ -135,7 +135,7 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 - Now we need to implement an Azure Data Factory to move the data for us.
 
-- As before, go to "add" and search for "factory"
+- As before, go to "add" and search for "factory".
 
 <kbd> ![Create Data Factory](https://user-images.githubusercontent.com/61860904/107554498-42cc9380-6b93-11eb-8926-c3931dd23b8e.PNG) </kbd> 
 
@@ -149,7 +149,7 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 - First we need to make our linked services to both the Data Lake and the SQL Database.
 
-- Go to the Toolkit with a wrench icon on the left hand menu (Manage)
+- Go to the Toolkit with a wrench icon on the left hand menu (Manage).
 
 <kbd> ![Pencil Icon](https://user-images.githubusercontent.com/61860904/107557587-0b5fe600-6b97-11eb-88f5-d96c5b78ead9.PNG) </kbd>
 
@@ -169,11 +169,11 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 - Now that the linked services are completed, you will need datasets to tell what the data contains.
 
-- Select the pencil icon (Author) in the left hand side menu
+- Select the pencil icon (Author) in the left hand side menu.
 
 <kbd> ![Pencil Icon](https://user-images.githubusercontent.com/61860904/107557587-0b5fe600-6b97-11eb-88f5-d96c5b78ead9.PNG) </kbd>
 
-- Select the three dots beside Datasets and choose "New Dataset"
+- Select the three dots beside Datasets and choose "New Dataset".
 
 <kbd> ![New Dataset](https://user-images.githubusercontent.com/61860904/107562800-83c9a580-6b9d-11eb-822e-99e67e153dc7.PNG) </kbd>
 
@@ -219,13 +219,13 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 - Choose the dataset that is the source, the CSV dataset in our case.
 
-- Select Sink
+- Select Sink.
 
 <kbd> ![Sink Dataset](https://user-images.githubusercontent.com/61860904/107656965-e96f6d80-6c41-11eb-8d94-9b7684dd0a99.PNG) </kbd>
 
 - Choose the dataset that is the sink, the SQL Database dataset in our case.
 
-- From here, if you did not create the table in your SQL Database, choose the option "Auto create table"
+- From here, if you did not create the table in your SQL Database, choose the option "Auto create table".
 
 <kbd> ![Auto Create Table](https://user-images.githubusercontent.com/61860904/107657314-4e2ac800-6c42-11eb-96d5-c89b4e6997ef.PNG) </kbd>
 
@@ -245,11 +245,11 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 <kbd> ![DF Publish](https://user-images.githubusercontent.com/61860904/107884345-be8b5080-6eb1-11eb-98c7-263a1c63132c.PNG) </kbd>
 
-- Now to run the pipeline you need to select "Add Trigger" then "Trigger now"
+- Now to run the pipeline you need to select "Add Trigger" then "Trigger now".
 
 <kbd> ![DF Trigger](https://user-images.githubusercontent.com/61860904/107884364-e084d300-6eb1-11eb-9f41-c99890f1ed51.PNG) </kbd>
 
-- You can monitor your pipeline triggers and debugs in the "Monitor" tab
+- You can monitor your pipeline triggers and debugs in the "Monitor" tab.
 
 <kbd> ![DF Monitor](https://user-images.githubusercontent.com/61860904/107884400-1c1f9d00-6eb2-11eb-9166-0028ae88dcad.PNG) </kbd>
 
@@ -264,7 +264,7 @@ You have now successfully setup your Azure Data Factory Pipeline!
 
 ## 5. Use Power BI to analyse data in Azure SQL Database
 
-- Open Power BI desktop, select "Get data" from the ribbon at the top
+- Open Power BI desktop, select "Get data" from the ribbon at the top.
 
 <kbd> ![PBI Get Data](https://user-images.githubusercontent.com/61860904/107661638-b1b6f480-6c46-11eb-8781-49db991c47ae.PNG) </kbd>
 
@@ -278,7 +278,7 @@ You have now successfully setup your Azure Data Factory Pipeline!
 
 - You need to login to your SQL server using the same login used in the SQL Database in Azure.
 
-- The "Navigator" window will open up and select the tables you wish to import to Power BI
+- The "Navigator" window will open up and select the tables you wish to import to Power BI.
 
 - From here you can either "Transform" the data if there is changes to be made or you can "Load" the data if it is already to be used in analysis.
 
@@ -286,7 +286,7 @@ You have now successfully setup your Azure Data Factory Pipeline!
 <br/>
 <br/>
 
-I have included examples of visuals you can make from a climbing data set that I used.
+I have included quick examples of visuals you can make from the climbing data set provided. If you would like to see a more extensive Power BI visualization, it is included in the files in this github.
 
 <br/>
 <br/>
