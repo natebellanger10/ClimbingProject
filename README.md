@@ -84,7 +84,7 @@ Lets start at the Azure portal home page:  https://portal.azure.com/
 
 - Give it a name, I named mine CSVFiles.
 
-- You now have a Data Lake to upload data into. From here you can upload data or create directories within the Lake.
+- You now have a Container within the Data Lake to upload data into. From here you can upload data or create directories within the Lake.
 
 - Press to the upload button to start adding data to your Data Lake.
 
