@@ -123,7 +123,7 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 <kdb> ![Query Editor](https://user-images.githubusercontent.com/61860904/107558163-b2dd1880-6b97-11eb-8a56-b75df32298ff.PNG) </kbd>
 
-- Login to your database and you can run queries to create the tables required usign the CREATE TABLE command.
+- Login to your database and you can run queries to create the tables required using the CREATE TABLE command.
 
 - Ensure the columns have the correct data type or you will have errors moving the data to the SQL Database, remember that CSV files are all strings by default. 
 
