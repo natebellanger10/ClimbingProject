@@ -55,7 +55,7 @@ Lets start at the Azure portal home page:  https://portal.azure.com/
 
 - Name your storage account and choose the same location chosen for the Resource Group.
 
-- Go to the "Advanced" tab and select Data Lake Storage Gen2. 
+- Go to the "Advanced" tab, under Data Lake Storage Gen2, switch "Hierarchical namespace" to enabled. 
 
 <kbd> ![Advanced - Data Lake](https://user-images.githubusercontent.com/61860904/107546594-c5e8ec00-6b89-11eb-87c3-a78f8dd7271f.PNG) </kbd>
 
