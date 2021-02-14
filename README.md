@@ -276,7 +276,7 @@ You have now successfully setup your Azure Data Factory Pipeline!
 
 - Enter your server name, which can be found in the resource in Azure, choose the SQL Database and under the "Essentials" tab.
 
-- You need to login to your SQL server using the same login used in teh SQL Database in Azure.
+- You need to login to your SQL server using the same login used in the SQL Database in Azure.
 
 - The "Navigator" window will open up and select the tables you wish to import to Power BI
 
