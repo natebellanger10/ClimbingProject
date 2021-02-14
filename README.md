@@ -2,10 +2,11 @@
 
 ## Process Outline:
 1. Create Resource Group 
-2. Load data from on premises into Azure Data Lake Gen2
-3. Create Azure SQL Database
-4. Use Azure Data Factory to move data
-5. Use Power BI to analyse data in Azure SQL Database
+2. Create Azure Data Lake Gen2
+3. Load data from on premises into Azure Data Lake
+4. Create Azure SQL Database
+5. Use Azure Data Factory to move data
+6. Use Power BI to analyse data in Azure SQL Database
 
 
 <br/>
@@ -33,7 +34,7 @@ Lets start at the Azure portal home page:  https://portal.azure.com/
 <br/>
 <br/>
 
-## 2. Load Data into Azure Data Lake Gen2 
+## 2. Create Azure Data Lake Gen2
 
 - We need to create the Data Lake for our CSV's to live in. There are two places to ceate a new resource from the home page as shown below:
 
@@ -58,6 +59,16 @@ Lets start at the Azure portal home page:  https://portal.azure.com/
 - Go to the "Advanced" tab, under Data Lake Storage Gen2, switch "Hierarchical namespace" to enabled. 
 
 <kbd> ![Advanced - Data Lake](https://user-images.githubusercontent.com/61860904/107546594-c5e8ec00-6b89-11eb-87c3-a78f8dd7271f.PNG) </kbd>
+
+- Press "Review + Create", then press "Create".
+
+- Once the resource has been created click on it within your resource group.
+
+<br/>
+<br/>
+
+## 3. Load data from on premises into Azure Data Lake
+
 
 - To create a new container for the CSV files, search "Containers" or scroll down to "Data Lake Storage" and select "Containers".
 
