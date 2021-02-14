@@ -2,7 +2,7 @@
 
 ## Process Outline:
 1. Create Resource Group 
-2. Load data from static CSV files into Azure Data Lake Gen2
+2. Load data from on premises into Azure Data Lake Gen2
 3. Create Azure SQL Database
 4. Use Azure Data Factory to move data
 5. Use Power BI to analyse data in Azure SQL Database
