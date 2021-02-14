@@ -133,8 +133,6 @@ Congrats! Your have created the Data Lake and have all your data in the cloud.
 
 ## 4. Use Azure Data Factory to move data
 
-- The source and sink destinations complete.
-
 - Now we need to implement a Azure Data Factory to move the data for us.
 
 - As before, go to "add" and search for "factory"
